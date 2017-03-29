@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<!--
+Author: Sandra Morawska
+Email: sandra.morawska@gmail.com
+-->
+	<head>
+		<title>NOD</title>
+		<meta charset="UTF-8">
+		<link type="text/css" rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" type="text/css" href="css/normalize.css">
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+		<link href="https://fonts.googleapis.com/css?family=Homemade+Apple|Special+Elite" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans" rel="stylesheet"> 
+		<link href="https://fonts.googleapis.com/css?family=Finger+Paint|Frijole|Nosifer" rel="stylesheet"> 
+	</head>
+	<body>
+		<div class="header">
+			<a id="top"></a>
+			<ul id="menu-top">
+				<li><a href="#">LOGIN</a></li>
+				<li><a href="#"><img src="img/cart-icon.png" alt="Cart icon"/></a></li>
+				<li><a href="#contact-us">CONTACT US</a></li>
+			</ul>
+			<div id="logo-container">
+				<h1>NOD</h1>
+				<h4>Not only dresses...</h4>
+			</div>
+			<ul id="menu">
+				<li><a href="#dresess">DRESSES</a></li>
+				<li><a href="#blouses">BLOUSES</a></li>
+				<li><a href="#skirts">SKIRTS</a></li>
+				<li class="dropdown"><a href="#" class="dropdown-toggle">MORE<img src="img/arrow-icon.png" alt="Arrow"/><b class="caret"></b></a>
+					<ul class="dropdown-menu">
+						<li><a href="#about-us">ABOUT US</a></li>
+						<li><a href="#">BLOG</a></li>
+					</ul>
+			</ul>
+		</div><!--End of header-->
+			
+		<div class="content">
+			<div id="dresses">
+				<img src="img/dress1.jpg" alt="Dress 1"/>
+				<img src="img/dress2.jpg" alt="Dress 2"/>
+				<img src="img/dress3.jpg" alt="Dress 3"/>
+				<ul>
+					<li><a id="khaki" href="#">KHAKI</a></li>
+					<li><a id="burgundy" href="#">BURGUNDY</a></li>
+					<li><a id="anthracite" href="#">ANTHRACITE</a></li>
+				</ul>
+			</div>
+		</div><!--End of content-->
+		<div class="content">
+			<div id="blouses">
+				<a href="#">Hoodie <span>?!</span></a>
+				<img src="img/blouse1.jpg" alt="Blouse 1"/>
+			</div>
+		</div><!--End of content-->
+		<div class="content">
+			<div id="skirts">
+				<p>?</p>
+				<ul>
+					<li><a href="#">Mini</a></li>
+					<li><a href="#">Midi</a></li>
+					<li><a href="#">Maxi</a></li>
+				</ul>
+				<img src="img/skirt.jpg" alt="Skirt"/>
+			</div>
+		</div><!--End of content-->
+		<div class="content">
+			<div id="about-us">
+				<h3>ABOUT US</h3>
+				<p>NOD is an independent Polish clothing brand. Designed especially for women who appreciate quality and comfort. Clothing NOD is a timeless classic with a modern twist, perfect outfit for every day to work or meet friends. Designs are inspired by everyday way of life, often full of rush. Our goal is to create clothes that you will not want to stop wearing and in addition will fit on many occasions. NOD's clothes are made only of Polish high-quality knitwear and are manufactured in Poland.</p>
+				<div id="post">
+					<form>
+						<div class="form-group">
+							<textarea class="status-box" rows="2" placeholder="What do you like in NOD's clothes?"></textarea>
+						</div>
+					</form>
+					<div class="button-group">
+						<span id="counter">100</span>
+						<button onclick="window.location.href='#about-us'" id="btn-post">Post</button>
+					</div>
+					<ul class="posts">
+					</ul>
+				</div>
+			</div>
+		</div><!--End of content-->
+		<div class="content last">
+			<div id="contact-us">
+				<h4>CONTACT US:</h4>
+				<form action="mailto:sandra.morawska@gmail.com" method="post" enctype="text/plain">
+					NAME:<br>
+					<input id="name" type="text" name="name"><br>
+					E-MAIL:<br>
+					<input id="mail" type="text" name="mail"><br>
+					COMMENT:<br>
+					<textarea id="comment" rows="5" placeholder="  ..." ></textarea><br><br>
+					<input type="submit" value="Send">
+					<input type="reset" value="Reset">
+				</form>
+				<div id="contact">
+					<h5>NOD</h5>
+					Widok 13/8<br>
+					00-345 Warsaw<br>
+					<img src="img/phone-icon.png" alt="phone"> + 48 777 888 999<br>
+					<ul id="social">
+						<li><a href="#"><img src="img/facebook.png" alt="Facebook"></a></li>
+						<li><a href="#"><img src="img/twitter.png" alt="Twitter"></a></li>
+						<li><a href="#"><img src="img/pinterest.png" alt="Pinterest"></a></li>
+						<li><a href="#"><img src="img/instagram.png" alt="Instagram"></a></li>
+						<li><a href="#"><img src="img/snapchat.png" alt="Snapchat"></a></li>
+					</ul>
+				</div>
+			</div>
+		</div><!--End of content-->
+
+		<div id="footer">
+			Designed by <a href="mailto:sandra.morawska@gmail.com?subject=NOD website">Sandra Morawska</a>.
+		</div><!--End of footer-->
+		<a id="arrow-up" href="#top"><img src="img/arrow-up.png" alt="Arrow up"/></a>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="js/js-cookie.js"></script>
+		<script src="js/script.js"></script>
+	</body>
+</html>

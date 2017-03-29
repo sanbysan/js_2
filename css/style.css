@@ -1,0 +1,444 @@
+/* { border: 1px solid black ; }*/
+body, h1, h2, h3, h4, h5, h6, p, div, ul, li {                      
+   margin: 0;                      
+   padding: 0;  
+} 
+
+/*Logo*/
+#logo-container {
+	width: 30%;
+	margin-left: 10px;
+	line-height: 0em;
+}
+
+#logo-container > h1 {
+	font-family: 'Special Elite', cursive;
+	font-size: 6.2em;
+	margin-bottom: 40px;
+}
+#logo-container > h4 {
+	font-family: 'Homemade Apple', cursive;
+	font-size: 1.1em;
+	margin-left: 9px;
+	min-width: 190px;
+}
+
+
+/*menu*/
+.header {
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	float: right;
+}
+#menu-top {
+	width: 60%;
+	float: right;
+	margin-top: 10px;
+	margin-right: 55px;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1em;
+	font-weight: bold;
+	list-style: none;
+}
+#menu-top > li {
+	float: right;
+	margin-right: 30px;
+	padding: 0;
+	display: inline-block;
+}
+#menu-top > li > a {
+	text-decoration: none;
+	color: black;
+}
+#menu-top > li> a > img {
+	width: 16px;
+}
+#menu-top > li > a:hover {
+	color: #879c87;
+}
+#menu-top > li> a > img:hover {
+	opacity: 0.5;
+}
+
+
+#menu {
+	width: 55%;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 1.4em;
+	font-weight: bold;
+	margin-top: -10px;
+	list-style: none;
+}
+#menu > li {
+	display: inline-block;
+	padding: 0px 13px 0px 65px;
+}
+#menu > li > a {
+	text-decoration: none;
+	color: black;
+}
+#menu > li > a:hover {
+	color: #879c87;
+}
+.dropdown-menu {
+	list-style: none;
+	position: absolute;
+	display: none;
+}
+.dropdown-menu > li > a {
+	text-decoration: none;
+	color: black;
+}
+.dropdown-menu > li > a:hover {
+	color: #879c87;
+}
+.dropdown-toggle > img {
+	width: 15px;
+}
+.dropdown-toggle > img:hover {
+	opacity: 0.5;
+}
+
+
+/*Content*/
+
+
+.content {
+	width: 100%;
+	display: block;
+	overflow: hidden;
+	border-bottom: 1px solid #ddd;
+}
+.content.last {
+	margin-bottom: 5px;
+}
+/*Dresses*/
+#dresses {
+	width: 100%;
+}
+#dresses > img {
+	width: 20%;
+	min-width: 200px;
+}
+#dresses > ul {
+	width: 20%;
+	float: right;
+	list-style: none;
+	margin-right: 220px;
+	margin-top: 5%;
+}
+#dresses > ul > li{
+	
+}
+#dresses > ul > li > a {
+	text-decoration: none;
+}
+#khaki {
+	font-family: 'Nosifer', cursive;
+	color: #666600;
+	font-size: 3.3em;
+	padding: 0px 0px 0px 90px;
+}
+#burgundy {
+	font-family: 'Finger Paint', cursive;
+	color: #930222;
+	font-size: 3em;
+	padding: 0px 0px 0px 65px;
+}
+#anthracite {
+	font-family: 'Frijole', cursive;
+	color: #444444;
+	font-size: 2.7em;
+	line-height: 2em;
+}
+#khaki:hover {
+	opacity: 0.8;
+	text-shadow: 3px 4px 2px #eee;
+}
+#burgundy:hover {
+	opacity: 0.8;
+	text-shadow: 3px 4px 2px #eee;
+}
+#anthracite:hover {
+	opacity: 0.8;
+	text-shadow: 3px 4px 2px #eee;
+}
+
+
+/*Blouses*/
+#blouses {
+	height: 100%;
+	display: block;
+	width: 100%;
+	text-align: center;
+}
+#blouses > img {
+	width: 20%;
+	min-width: 170px;
+	margin-bottom: -5px;
+}
+#blouses > a {
+	text-decoration: none;
+	font-family: 'Frijole', cursive;
+	font-size: 5.5em;
+	color: black;
+}
+#blouses > a > span {
+	color: #f9645c;
+}
+#blouses > a:hover {
+	opacity: 0.8;
+	text-shadow: 5px 6px 3px #eee;
+}
+
+
+/*Skirts*/
+#skirts {
+	width: 100%;
+	font-family: 'Homemade Apple', cursive;
+	font-weight: bold;
+}
+#skirts > img {
+	width: 20%;
+	min-width: 200px;
+	
+}
+#skirts > p {
+	
+	font-size: 7.4em;
+	color: #32323E;
+	line-height: 0em;	
+}
+#skirts > ul {
+	list-style: none; 
+}
+#skirts > ul > li {
+	margin-top: 70px;
+}
+#skirts a {
+	text-decoration: none;
+	font-size: 4.4em;
+	color: #32323E;
+	line-height: 0em;
+}
+#skirts a:hover {
+	color: #ddd;
+}
+
+
+
+/*ABOUT US*/
+#about-us {
+	width: 100%;
+	font-family: 'Josefin Sans', sans-serif;
+}
+#about-us > p {
+	line-height: 1.8em;
+	text-align: justify;
+	padding-top: 20px;
+}
+#post {
+	height: 100%;
+}
+
+.posts {
+  clear: both;
+  list-style: none;
+  padding-left: 0;
+  width: 80%;
+}
+.posts li {
+  background-color: #fff;
+  border: 1px solid coral;
+  border-radius: 5px;
+  padding-top: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 5px;
+  margin-bottom: 5px;
+  word-wrap: break-word;
+  min-height: 22px;
+}
+textarea {
+	width: 95%;
+	border-radius: 5px;
+}
+
+.button-group {
+	float: right;
+}
+#btn-post {
+    border: 1px solid #444444;
+    border-radius: 5px;
+	background: linear-gradient(#444444, #ddd);
+    width: 60px;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+	font-weight: bold;
+    padding: 5px;
+    margin: 5px;
+	box-shadow: 0 7px 2px #999;
+}
+#btn-post:active {
+	transform: translateY(4px);
+	box-shadow: 0 3px 2px #666;
+}	
+#btn-post:hover {
+    background: linear-gradient(#f9645c, #ddd, #444444);
+}
+#counter {
+	padding-top: 11px;
+}
+
+
+/*Contact us*/
+#contact-us {
+	font-family: 'Josefin Sans', sans-serif;
+	padding-left: 30px;
+	padding-bottom: 60px;
+}
+#contact-us > h4 {
+	font-size: 1.7em;
+}
+#contact-us > form {
+	font-size: 0.8em;
+	min-width: 390px;
+}
+#contact-us > form > input {
+	border-radius: 5px; 
+}
+#contact-us > form > input[value] {
+	background: linear-gradient(#444444, #ddd); 
+	font-weight: bold;
+	box-shadow: 0 5px 2px #999;
+}
+#contact-us > form > input[value]:hover {
+	background: linear-gradient(#f9645c, #ddd, #444444);
+}
+#contact-us > form > input[value]:active {
+	transform: translateY(4px);
+	box-shadow: 0 2px 2px #666;
+	background: linear-gradient(#444444, #ddd); 
+}
+#contact-us > form > input[type='text']:focus {
+	background: #eee; 
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+#comment:focus {
+	background: #eee; 
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+}
+#comment {
+	height: 60px;
+	width: 50%;
+}
+#name, #mail {
+	width: 15%;
+    transition: width 1s;
+}
+#name:hover, #mail:hover {
+	width: 30%;
+}
+#comment {
+	width: 50%;
+    transition: width 1s;
+}
+
+#contact {
+	font-size: 1em;
+	border-left: 1px solid black;
+	padding-left: 25px;
+	margin-top: -33px;
+}
+#contact > h5 {
+	font-size: 1.7em;
+	padding-bottom: 13px;
+}
+#contact > img {
+	width: 25px;
+	vertical-align: text-bottom;
+	padding: 5px 0px 0px 3px;
+}
+#contact > ul {
+	list-style: none;
+}
+#contact > ul > li {
+	display: inline-block;
+	padding: 17px 10px 0 0;
+}
+#contact > ul > li > a > img {
+	width: 50px;
+}
+#contact > ul > li > a > img:hover {
+	opacity: 0.5;
+}
+
+/*Footer*/
+#footer {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 0.8em;
+	text-align: center;
+}
+#footer > a {
+	color: #444444;
+}
+#footer > a:hover {
+	color: #eee;
+}
+
+/*Arrow up*/
+
+#arrow-up {
+	position: fixed;
+	right: 20px;
+	display: inline;
+	bottom: 30px;
+}
+#arrow-up img {
+	width: 30px;
+}
+
+
+@media screen and (min-width: 750px) {
+	.header { margin-bottom: 60px;}
+	.content {margin-bottom: 60px;}
+	#menu {float: right}
+	#blouses > a { float: left; margin: 150px 0 0 150px;}
+	#skirts > ul { display: inline-block; vertical-align: middle; margin-left: 190px;}
+	#skirts > p { display: inline-block;margin-left: 120px; vertical-align: text-bottom}
+	#skirts > img { float: left; margin-left: 220px;}
+	#about-us > h3 {padding-left: 25px; width: 35%;}
+	#about-us > p {padding-left: 25px; display: inline-block; width: 35%;
+	margin-bottom: 55px;}
+	#post {width: 59%; float: right;}
+	.button-group { padding-right: 30px;}
+	#contact-us > h4 {width: 50%;}
+	#contact-us > form {width: 50%; display: inline-block;}
+	#comment:hover {width: 80%;}
+	#contact {width: 40%; display: inline-block; vertical-align: top;}
+}
+
+@media screen and (max-width: 750px) {
+	.header { margin-bottom: 30px}
+	#contact { margin-top: 10px}
+	#menu-top { margin: 10px; float: left; width: auto;}
+	#menu-top li {margin-right: 10px;}
+	#menu {margin-top: 15px }
+	#menu > li { padding: 0px 13px 0px 15px }
+	#logo-container { margin-top: 90px; }
+	#khaki{font-size: 2.5em; padding: 0;}
+	#burgundy {font-size: 2.4em; padding: 0;}
+	#anthracite {font-size: 1.8em; padding: 0; line-height: 2.7em;}
+	#blouses > a {font-size: 2.7em; margin: 0 auto;}
+	#skirts {text-align: center;}
+	#skirts > p {margin-top: 80px;}
+	.content {margin-bottom: 20px}
+	#about-us > h3 {text-align: center}
+	#about-us > p {padding: 20px 25px;}
+	#post {margin: 20px;}
+	#comment:hover {width: 60%;}
+	#contact > ul {width: 250px}
+}
