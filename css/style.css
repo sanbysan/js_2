@@ -119,13 +119,16 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
 #dresses > img {
 	width: 20%;
 	min-width: 200px;
+	display: block;
+	float: left;
+	
 }
 #dresses > ul {
-	width: 20%;
-	float: right;
+	width: 40%;
 	list-style: none;
-	margin-right: 220px;
 	margin-top: 5%;
+	display: block;
+	float: left;
 }
 #dresses > ul > li{
 	
@@ -168,7 +171,6 @@ body, h1, h2, h3, h4, h5, h6, p, div, ul, li {
 /*Blouses*/
 #blouses {
 	height: 100%;
-	display: block;
 	width: 100%;
 	text-align: center;
 }
@@ -406,7 +408,7 @@ textarea {
 	.header { margin-bottom: 60px;}
 	.content {margin-bottom: 60px;}
 	#menu {float: right}
-	#blouses > a { float: left; margin: 150px 0 0 150px;}
+	#blouses > a { display: inline-block; vertical-align: top; margin: 0 40px;}
 	#skirts > ul { display: inline-block; vertical-align: middle; margin-left: 190px;}
 	#skirts > p { display: inline-block;margin-left: 120px; vertical-align: text-bottom}
 	#skirts > img { float: left; margin-left: 220px;}
@@ -421,6 +423,8 @@ textarea {
 	#contact {width: 40%; display: inline-block; vertical-align: top;}
 }
 
+
+
 @media screen and (max-width: 750px) {
 	.header { margin-bottom: 30px}
 	#contact { margin-top: 10px}
@@ -429,10 +433,11 @@ textarea {
 	#menu {margin-top: 15px }
 	#menu > li { padding: 0px 13px 0px 15px }
 	#logo-container { margin-top: 90px; }
+	#dresses > ul {margin-left: 25px;}
 	#khaki{font-size: 2.5em; padding: 0;}
 	#burgundy {font-size: 2.4em; padding: 0;}
 	#anthracite {font-size: 1.8em; padding: 0; line-height: 2.7em;}
-	#blouses > a {font-size: 2.7em; margin: 0 auto;}
+	#blouses > a {font-size: 2.7em; margin: 0 auto; display: block;}
 	#skirts {text-align: center;}
 	#skirts > p {margin-top: 80px;}
 	.content {margin-bottom: 20px}
