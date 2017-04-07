@@ -300,8 +300,8 @@ textarea {
 	padding-left: 30px;
 	padding-bottom: 60px;
 }
-#contact-us > h4 {
-	font-size: 1.7em;
+#contact-us > form > h4 {
+	font-size: 1.7rem;
 }
 #contact-us > form {
 	font-size: 0.8em;
@@ -353,10 +353,9 @@ textarea {
 	font-size: 1em;
 	border-left: 1px solid black;
 	padding-left: 25px;
-	margin-top: -33px;
 }
 #contact > h5 {
-	font-size: 1.7em;
+	font-size: 1.7rem;
 	padding-bottom: 13px;
 }
 #contact > img {
@@ -417,7 +416,7 @@ textarea {
 	margin-bottom: 55px;}
 	#post {width: 59%; float: right;}
 	.button-group { padding-right: 30px;}
-	#contact-us > h4 {width: 50%;}
+	#contact-us > form > h4 {width: 50%;}
 	#contact-us > form {width: 50%; display: inline-block;}
 	#comment:hover {width: 80%;}
 	#contact {width: 40%; display: inline-block; vertical-align: top;}
