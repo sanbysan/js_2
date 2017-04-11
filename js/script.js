@@ -1,11 +1,11 @@
-$(document).ready(function() {
+var main = function() {
 	$('.dropdown-toggle').click(menuClickHandler);
 	$(window).scroll(windowScrollHandler);	
 	$('#btn-post').click(buttonClickHandler);
 	$('.status-box').keyup(statusBoxKeyupHandler);
 	writePosts();
 	//Cookies.remove('posts');
-})
+}
 
 	//Menu
 var menuClickHandler = function (){
@@ -72,5 +72,7 @@ var statusBoxKeyupHandler = function () {
 	}
 }
 	
-$('#btn-post').attr('disabled', true);
+
+
+$(document).ready(main);
 	
